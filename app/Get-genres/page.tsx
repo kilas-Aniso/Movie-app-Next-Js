@@ -1,3 +1,5 @@
+"use client"
+
 import { useEffect, useState } from "react";
 import { getGenres, getMovies } from "../utilities/utils";
 import { NEXT_PUBLIC_IMAGE_BASE_URL } from "../config";
