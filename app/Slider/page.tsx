@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward, IoMdStar } from "react-icons/io";
 import { images } from "./helpers";
