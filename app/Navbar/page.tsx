@@ -12,17 +12,17 @@ const Navbar = () => {
               </h1>
             </div>
             <div className="flex items-center">
-              <input className="search px-40 py-1 rounded-full border border-white text-white bg-black text-lg focus:outline-none focus:ring focus:border-white-300" type="text" placeholder="Search" />
+              <input className="search px-40  rounded-full border border-white text-white bg-black text-lg focus:outline-none focus:ring focus:border-white-300" type="text" placeholder="Search" />
             </div>
             <div className="flex items-center">
               <ul className="navbar-nav flex items-center gap-8 ml-10">
                 <li className="nav-item">
-                  <a className="nav-link text-white text-lg" href="">
+                  <a className="nav-link text-white text-2xl" href="">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white text-lg" href="">
+                  <a className="nav-link text-white text-2xl" href="">
                     My List
                   </a>
                 </li>

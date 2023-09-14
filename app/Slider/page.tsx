@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward, IoMdStar } from "react-icons/io";
 import { images } from "./helpers";
 
-export const Carousel = () => {
+const MovieCarousel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const goToPreviousImage = () => {
@@ -78,4 +78,4 @@ export const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default MovieCarousel

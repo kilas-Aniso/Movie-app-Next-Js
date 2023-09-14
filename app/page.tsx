@@ -5,16 +5,17 @@
 import Navbar from "./Navbar/page";
 import Footer from "./Footer/page";
 import GenreList from "./Get-genres/page";
-import { Carousel } from "./Slider/page";
+import MovieCarousel from "./Slider/page";
+
 
 
 export default function Home() {
 
 
   return (
-    <main>
+    <main className="bg-gray-900">
       <Navbar/>
-      <Carousel/>
+      <MovieCarousel/>
 
       <GenreList/>
       <Footer/>
