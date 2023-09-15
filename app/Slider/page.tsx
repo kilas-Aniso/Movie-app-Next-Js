@@ -44,10 +44,11 @@ const MovieCarousel = () => {
               <span>
                 <IoMdStar className="span-icon"></IoMdStar>
               </span>
-              {images[currentImageIndex].rating}
-              {images[currentImageIndex].year}
-              {images[currentImageIndex].season}
-              {images[currentImageIndex].episodes}
+              {images[currentImageIndex].rating}  |  
+              {images[currentImageIndex].year}   |
+              {images[currentImageIndex].season}   |
+              {images[currentImageIndex].episodes}   |
+          
             </p>
 
             <p className="center-description">

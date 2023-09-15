@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar-lg py-6 bg-black">
+    <div className="navbar-lg py-8 bg-black">
       <nav className="navbar">
         <div className="container-fluid">
           <div className="flex items-center justify-between">
@@ -12,7 +12,7 @@ const Navbar = () => {
               </h1>
             </div>
             <div className="flex items-center">
-              <input className="search px-40  rounded-full border border-white text-white bg-black text-lg focus:outline-none focus:ring focus:border-white-300" type="text" placeholder="Search" />
+              <input className="search px-20  rounded-full border border-white text-white bg-black text-lg focus:outline-none focus:ring focus:border-white-100" type="text" placeholder="Search" />
             </div>
             <div className="flex items-center">
               <ul className="navbar-nav flex items-center gap-8 ml-10">
@@ -27,7 +27,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <button className="bg-yellow-400 text-white px-4 py-1 rounded-md hover:bg-yellow-400 focus:outline-none focus:ring focus:bg-yellow-300 text-lg mr-20" type="button">
+                  <button className="bg-yellow-400 text-white px-4 py-1 rounded-md hover:bg-yellow-400 focus:outline-none focus:ring focus:bg text-lg mr-20" type="button">
                     <a className="nav-link active text-black text-lg" href="/sign Up">
                       Sign Up
                     </a>
