@@ -6,7 +6,10 @@ export const getMovies =async() =>{
         method:'GET',
     })
     const result = await response.json();
+    console.log(result);
     return result;
+   
+    
     }
     catch(error){
         return error;
@@ -18,6 +21,7 @@ export const getGenres = async() =>{
             method:'GET',
         })
         const result = await response.json();
+        console.log(result);
         return result;
     }
     catch(error){

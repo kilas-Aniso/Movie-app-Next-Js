@@ -29,7 +29,7 @@ try{
   return new Response(JSON.stringify(responseJson),{
     status:200,
     statusText: 'Success',
-    headers:{
+    headers:{ 
       'Content-Type': 'application/json',
     
     },
