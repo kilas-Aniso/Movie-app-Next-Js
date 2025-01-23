@@ -15,6 +15,24 @@ export const getMovies =async() =>{
         return error;
     }
     }
+
+    export const getSearch =async() =>{
+        try{
+        const response = await fetch (`/api/get-search`,{
+            method:'GET',
+        })
+        const result = await response.json();
+        console.log(result);
+        return result;
+       
+        
+        }
+        catch(error){
+            return error;
+        }
+        }
+
+
 export const getGenres = async() =>{
     try{
         const response = await fetch (`/api/get-genres`,{
