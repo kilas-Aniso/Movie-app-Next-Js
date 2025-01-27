@@ -16,9 +16,9 @@ export const getMovies =async() =>{
     }
     }
 
-    export const getSearch =async() =>{
+    export const getTopRated =async() =>{
         try{
-        const response = await fetch (`/api/get-search`,{
+        const response = await fetch (`/api/get-toprated`,{
             method:'GET',
         })
         const result = await response.json();
