@@ -47,6 +47,21 @@ export const getGenres = async() =>{
     }
 }
 
+
+export const getUpcoming = async() =>{
+    try{
+        const response = await fetch (`/api/get-upcoming`,{
+            method:'GET',
+        })
+        const result = await response.json();
+        console.log(result);
+        return result;
+    }
+    catch(error){
+        return error;
+    }
+}
+
  
 
 export async function getMovieDetails(movieId:number) {
