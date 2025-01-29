@@ -7,6 +7,7 @@ import Footer from "./Footer/page";
 import GenreList from "./Get-genres/page";
 import MovieCarousel from "./Slider/page";
 import TopRatedList from "./Toprated/page";
+import UpcomingList from "./Upcoming/page";
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
       <TopRatedList/>
 
       <GenreList/>
+      <UpcomingList/>
       <Footer/>
 
     </main>
