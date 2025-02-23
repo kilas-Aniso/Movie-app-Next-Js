@@ -8,6 +8,7 @@ import GenreList from "./Get-genres/page";
 import MovieCarousel from "./Slider/page";
 import TopRatedList from "./Toprated/page";
 import UpcomingList from "./Upcoming/page";
+import TvShowsList from "./Tvshows/page";
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
 
       <GenreList/>
       <UpcomingList/>
+      <TvShowsList/>
       <Footer/>
 
     </main>

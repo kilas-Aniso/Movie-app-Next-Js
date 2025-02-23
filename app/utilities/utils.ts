@@ -62,6 +62,21 @@ export const getUpcoming = async() =>{
     }
 }
 
+
+export const getTvshows = async() =>{
+    try{
+        const response = await fetch (`/api/get-tvshows`,{
+            method:'GET',
+        })
+        const result = await response.json();
+        console.log(result);
+        return result;
+    }
+    catch(error){
+        return error;
+    }
+}
+
  
 
 export async function getMovieDetails(movieId:number) {
