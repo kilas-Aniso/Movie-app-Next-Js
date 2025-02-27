@@ -16,6 +16,24 @@ export const getMovies =async() =>{
     }
     }
 
+    export const getSearchResults = async (query: any) => {
+        if (!query) return { results: [] }; // Avoid empty searches
+    
+        try {
+            const response = await fetch(`/api/get-search?query=${query}`, {
+                method: "GET",
+            });
+            const result = await response.json();
+            console.log(result);
+            return result;
+        } catch (error) {
+            console.error("Error fetching search results:", error);
+            return { results: [] };
+        }
+    };
+    
+    
+
     export const getTopRated =async() =>{
         try{
         const response = await fetch (`/api/get-toprated`,{
